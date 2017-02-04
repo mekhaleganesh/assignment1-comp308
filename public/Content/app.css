@@ -2,32 +2,38 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 .navbar{
-  opacity:0.5;}
+  opacity: 0.8}
 body{
-  background-color: #211D1D;
+  background-color: #242121;
   color: white;
   font-family: Abril Fatface, cursive;
 }
 
 .row1{
   min-height:1000px;
-  background: #211D1D;
+  background: #242121;
   margin-top: 100px;
  
 }
+#paraHome{
+  font-size: 24px;
+  padding-top: 100px;
+  text-indent: 0.5em;
+  animation: fadeIn 2s ease-in-out 0s forwards; }
 #about{
   min-height: 1000px;
-  background: crimson;
+  background: #76323F;
    margin-top: 100px;
 }
 #project{
   min-height: 1000px;
-  background: indianred;
+  background: #C09F80;
 
 }
 #homeHeader{
  font-family: Abril Fatface, cursive;
  text-decoration: underline;
+ text-align: center;
 
 }
 #loading{
@@ -102,4 +108,16 @@ opacity: 0.9;
 #fingerprint{
  max-width: 100%;
  max-height: 100%;
+}
+#avatar{
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 150px;
+  border-radius: 50%;
+}
+#AboutHeader{
+  text-align: center;
+  padding-top: 100px;
+
+
 }
