@@ -1,0 +1,105 @@
+/*custom css*/ 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.navbar{
+  opacity:0.5;}
+body{
+  background-color: #211D1D;
+  color: white;
+  font-family: Abril Fatface, cursive;
+}
+
+.row1{
+  min-height:1000px;
+  background: #211D1D;
+  margin-top: 100px;
+ 
+}
+#about{
+  min-height: 1000px;
+  background: crimson;
+   margin-top: 100px;
+}
+#project{
+  min-height: 1000px;
+  background: indianred;
+
+}
+#homeHeader{
+ font-family: Abril Fatface, cursive;
+ text-decoration: underline;
+
+}
+#loading{
+position: absolute;
+left: 350px;
+top: 216px;
+
+}
+
+.et{
+
+  border-right:1px solid grey;
+  opacity: 0;
+  animation: fadeOut 1s ease-out 0s forwards;
+
+}
+@keyframes fadeOut{
+  from{opacity: 1;}
+  to{opacity: 0;}
+}
+
+.et:hover{
+animation: fadeIn 2s ease-in-out 0s forwards;
+
+}
+@keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+#emerging{
+font-size: 480%;  
+position: absolute;
+transform:rotate(270deg);
+padding-right: 480px;
+
+}
+
+#tech{
+  font-size: 480%;
+  position: absolute;
+transform:rotate(-270deg);
+padding-bottom: 600px;
+
+}
+hr{
+  color: gray;
+}
+
+.banner{  
+  margin-left: 100px;
+  padding-left: 850px; 
+}
+#homeBanner{
+  text-align: center;
+
+
+}
+.banner li:hover{
+background-color: black;
+opacity: 0.9;
+
+}
+
+#spinner{
+  color: white;
+}
+.active a:hover{
+  background-color: black;
+  color: white; 
+}
+#fingerprint{
+ max-width: 100%;
+ max-height: 100%;
+}
