@@ -30,6 +30,15 @@ body{
   background: #428f89;
 
 }
+#service{
+min-height: 1000px;
+background:#a54e36;
+}
+#contact{
+min-height: 1000px;
+background:#133831;
+
+}
 #homeHeader{
  font-family: Abril Fatface, cursive;
  text-decoration: underline;
@@ -153,3 +162,34 @@ opacity: 0.9;
 .progress{
   width: 400px;
 }
+#service{
+  padding-left: 200px;
+}
+.web{
+  padding-top: 100px;
+  padding-right: 800px;
+  text-align: center;
+  
+}
+.test{
+position: relative;
+bottom: 320px;
+padding-left: 50px;
+text-align: center;
+  transform: scale(1.1);
+  
+}
+
+#contact{
+  padding-top: 100px;
+  text-align: center;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+    
+ }
+ .social {
+     -webkit-transform: scale(0.8); 
+     -webkit-transition-duration: 0.5s;
+ }
+
