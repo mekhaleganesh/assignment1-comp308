@@ -3,14 +3,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/',(req, res, next)=> {
-  let currentDate = new Date();
-  res.render('index', { 
-    title: 'Home',
-  date: currentDate.toTimeString()
+  res.render('index', {   title: 'Home',
+                          title2:'Who Am i ?',
+                          title3: 'My Projects',
+                          title4: 'Services',
+                          title5: 'Contact Me'});
 });
-});
-/* GET about page. */
-router.get('/about',(req, res, next)=> {
-  res.render('about', { title: 'About' });
-});
+
+
+
 module.exports = router;

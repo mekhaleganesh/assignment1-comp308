@@ -1,4 +1,13 @@
 /*custom css*/ 
+
+/*
+* ==== References ===
+ ** -- https://css-tricks.com -- **
+ ** --  http://getbootstrap.com/css/ -- **
+ ** -- http://www.w3schools.com -- **
+ ** -- http://stackoverflow.com -- **
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 .navbar{
@@ -8,9 +17,11 @@ body{
   color: white;
   font-family: Abril Fatface, cursive;
 }
-
+/*
+* — Home page Section Heading —
+*/
 .row1{
-  min-height:1000px;
+  min-height:100vh;
   background: #242121;
   margin-top: 100px;  
  
@@ -20,26 +31,7 @@ body{
   padding-top: 100px;
   text-indent: 0.5em;
   animation: fadeIn 2s ease-in-out 0s forwards; }
-#about{
-  min-height: 1000px;
-  background: #76323F;
-   margin-top: 100px;
-}
-#project{
-  min-height: 1000px;
-  background: #428f89;
-
-}
-#service{
-min-height: 1000px;
-background:#a54e36;
-}
-#contact{
-min-height: 1000px;
-background:#133831;
-
-}
-#homeHeader{
+  #homeHeader{
  font-family: Abril Fatface, cursive;
  text-decoration: underline;
  text-align: center;
@@ -114,9 +106,14 @@ opacity: 0.9;
   background-color: black;
   color: white; 
 }
-#fingerprint{
- max-width: 100%;
- max-height: 100%;
+  /*
+* — About Section —
+*/
+#about{
+ 
+min-height: 100vh;
+  background: #76323F;
+  
 }
 #avatar{
   position: absolute;
@@ -137,15 +134,25 @@ opacity: 0.9;
   text-align: center;
   padding-top: 150px;
 }
+.progress{
+  width: 400px;
+}
+/*
+* — project Section Heading —
+*/
+#project{
+  min-height: 100vh;
+  background: #428f89;
+
+}
 .row3{
- padding-top: 80px;
+  padding-top: 10px;
  padding-left: 25px;
 }
 .thumbnail{
   background-color: #dddad6;
   width: 300px;
   height: 400px;
- 
   box-shadow: 10px 10px 5px #242121;
 }
 .thumbnail:hover{
@@ -159,11 +166,16 @@ opacity: 0.9;
   width: 230px;
   height: 200px;
 }
-.progress{
-  width: 400px;
+/*
+* — service Section Heading —
+*/
+#service{
+min-height: 90vh;
+background:#a54e36;
 }
 #service{
   padding-left: 200px;
+ 
 }
 .web{
   padding-top: 100px;
@@ -173,6 +185,7 @@ opacity: 0.9;
 }
 .test{
 position: relative;
+margin-right: 200px;
 bottom: 320px;
 padding-left: 50px;
 text-align: center;
@@ -180,8 +193,20 @@ text-align: center;
   
 }
 
+/*
+* — Contact Section Heading —
+*/
 #contact{
-  padding-top: 100px;
+min-height: 100vh;
+
+background:#133831;
+}
+form{
+  margin-right: 200px;
+  padding-left: 200px;
+}
+#contact{
+  padding-top: 50px;
   text-align: center;
 }
 .social:hover {

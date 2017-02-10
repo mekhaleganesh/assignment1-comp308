@@ -1,3 +1,4 @@
+<!--header -->
 <% include partials/header.ejs %>
 
 <!--Main content-->
@@ -48,7 +49,7 @@
  
          <div class ="col-md-6" 
 <br>
-    <h1 id="AboutHeader">Who Am i ?</h1>
+    <h1 id="AboutHeader"><%= title2 %></h1>
     <div class"content"
     <br>
         <p> I am Mekhal Ganesh, Student at Centennial College.</p> 
@@ -90,6 +91,7 @@
  <!--Project Page -->
 <div id="project"
 <br> 
+ <h2 id="AboutHeader"><%= title3 %></h2>
        <div class="row3">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
@@ -135,23 +137,30 @@
 </div>
 
         </div>
+<!--Service page -->
 
-<div id="service"
+<div id ="service"
 <br>
-<div class="web">
+ <h2 id="AboutHeader"><%= title4 %></h2>
+<br>
+<div class="web"
+<br>
  <img id="web" src="/Assets/images/Web_ic.png" alt="payroll">
  <h3>Web Site Design</h3>
 
  </div>
-<div class="test">
+<div class="test"
+<br>
 <img id="test" src="/Assets/images/test_icon.png" alt="payroll">
   <h3>Testing</h3>
 </div>
-</div> 
+</div>
+
 
 <!--Contact ME Page -->
    <div id="contact">
-   <h2 id ="contactMe">Contact Me  </h2>
+   
+   <h2 id="AboutHeader"><%= title5 %></h2>
    <br><br>
    <form class="form-horizontal" action="mailto:mekhaleganesh@gmail.com" method="post" enctype="text/plain">
 <!-- Text input-->
@@ -200,6 +209,8 @@
 </div>
 </form>
 <br>
+
+<!--icons for social websites -->
 <div class="social">
                     <a href="https://www.facebook.com/mekhaleganesh"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
 	            <a href="https://twitter.com/mekhalganesh"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
@@ -207,6 +218,8 @@
 </div>
    </div>       
 
+
+<!-- footer-->
 <% include partials/footer.ejs %>
 
 
