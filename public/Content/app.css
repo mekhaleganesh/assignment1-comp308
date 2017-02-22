@@ -13,7 +13,7 @@
 .navbar{
   opacity: 0.8}
 body{
-  background-color: #242121;
+
   color: white;
   font-family: Abril Fatface, cursive;
 }
@@ -23,7 +23,7 @@ body{
 .row1{
   min-height:100vh;
   background: #242121;
-  margin-top: 100px;  
+  padding-top: 100px;
  
 }
 #paraHome{
@@ -146,7 +146,7 @@ min-height: 100vh;
 
 }
 .row3{
-  padding-top: 10px;
+ padding-top: 10px;
  padding-left: 25px;
 }
 .thumbnail{
@@ -170,28 +170,27 @@ min-height: 100vh;
 * — service Section Heading —
 */
 #service{
-min-height: 90vh;
+min-height: 100vh;
 background:#a54e36;
 }
 #service{
   padding-left: 200px;
  
 }
-.web{
-  padding-top: 100px;
-  padding-right: 800px;
+#web{
+ position: relative;
+ left:25px;
   text-align: center;
   
 }
-.test{
+#test{
 position: relative;
-margin-right: 200px;
-bottom: 320px;
-padding-left: 50px;
+top: 50px;
+right:55px;
 text-align: center;
   transform: scale(1.1);
   
-}
+} 
 
 /*
 * — Contact Section Heading —
